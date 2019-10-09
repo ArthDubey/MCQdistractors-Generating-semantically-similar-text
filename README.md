@@ -59,6 +59,7 @@ For every iteration of Test.csv-
 
 ## Results
 The results of this approach were not perfect but quite better than all the other alternatives tried. In most other alternatives, either contextual integrity of the solution was compromised or results were gramatically nonsensical.
+
 | Question        | Solution           | Distractors  |
 | ------------- |:-------------:| -----:|
 | What is special about Caleb Street 's Inn ? |It has a golf course for guest| It has a softball course for guest |
