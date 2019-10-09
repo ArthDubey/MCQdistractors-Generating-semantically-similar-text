@@ -60,10 +60,12 @@ For every iteration of Test.csv-
 ## Results
 The results of this approach were not perfect but quite better than all the other alternatives tried. In most other alternatives, either contextual integrity of the solution was compromised or results were gramatically nonsensical.
 
+Some of the noteworthy examples for the results are
+
 | Question        | Solution           | Distractors  |
 | ------------- |:-------------:| -----:|
-| What is special about Caleb Street 's Inn ? |It has a golf course for guest| It has a softball course for guest |
-|What happened to them a few minute later ? | their car nearly hit another car | 'their sailboat nearly hit another sailboat'|
+| What is special about Caleb Street 's Inn ? |It has a golf course for guest| 'It has a softball course for guest','It had football court' |
+|What happened to them a few minute later ? | their car nearly hit another car | 'their sailboat nearly hit another sailboat','Their car nearly stopped other car'|
 | Which of the following is right ?| Jim has many English books . |'Jim has many French books .'|
 
 
