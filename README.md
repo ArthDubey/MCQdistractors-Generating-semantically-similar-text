@@ -64,9 +64,9 @@ Some of the noteworthy examples for the results are
 
 | Question        | Solution           | Distractors  |
 | ------------- |:-------------:| -----:|
-| What is special about Caleb Street 's Inn ? |It has a golf course for guest| 'It has a softball course for guest','It had football court' |
+| What is special about Caleb Street 's Inn ? |It has a golf course for guest| 'It has a softball course for guest','It had football court for guests' |
 |What happened to them a few minute later ? | their car nearly hit another car | 'their sailboat nearly hit another sailboat','Their car nearly stopped other car'|
-| Which of the following is right ?| Jim has many English books . |'Jim has many French books .'|
+| Which of the following is right ?| Jim has many English books . |'Jim has many French books .','Jim had many English books'|
 
 
 ## Authors
