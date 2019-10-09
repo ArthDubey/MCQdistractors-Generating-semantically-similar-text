@@ -9,17 +9,17 @@ The following steps were followed in order to create the Vocabulary-
 1. All of the words from the train.csv file and test.csv file along with their number of occurances were saved in pickle format.
 2. As this vocabulary may not have been extensive enough for us to get the words we needed. For example
 
-_In example 149 in the submitted 'answer.csv' you can find, the actual answer is - 'The dummies books will continue to be popular' and the generated distractors are - 'The crosswords books will continue to be popular.' and 
-'The dummies books will cease to be popular .'_
+   _In example 149 in the submitted 'answer.csv' you can find, the actual answer is - 'The dummies books will continue to be     popular' and the generated distractors are - 'The crosswords books will continue to be popular.' and 
+   'The dummies books will cease to be popular .'_
 
-As the words 'cease' and 'crosswords' (which were essential in creating distractors) may not have been on the vocabulary so some essential extra words of English were needed.
+   As the words 'cease' and 'crosswords' (which were essential in creating distractors) may not have been on the vocabulary so   some essential extra words of English were needed.
 
 3. So the following Corpus was additionally used to expand the vocabulary.
 
-Source - http://www.nltk.org/nltk_data/ (28th entry)
+   Source - http://www.nltk.org/nltk_data/ (28th entry)
 
-Web Text Corpus [ download | source ]
-id: webtext; size: 646297; author: ; copyright: ; license: ;
+   Web Text Corpus [ download | source ]
+   id: webtext; size: 646297; author: ; copyright: ; license: ;
 
 4. Thus the Voacabulary used in this project was created.
 
@@ -30,17 +30,17 @@ id: webtext; size: 646297; author: ; copyright: ; license: ;
 2. All of the existing words were lemmatized so that the word2vec model would be able to extract more meaning from the corpus, since words like 'study' and 'studying' would mean the same thing.
 3. Stop words were removed from the corpus.
 4. Now after the procurement was complete vsmlib was used in order to train the word2vec model with the following hyperparameters (To find more refer to 'AdvancedTrain.py') -
-{
-   "dimensions": 25,
-   "epoch": 5,
-   "negative_size": 2,
-   "model": "cbow",
-   "out_type": "ns",
-   "subword": "none",
-   "vocabulary": {
-       "cnt_words": 272062
-   },
-   "window": 2
+   {
+      "dimensions": 25,
+      "epoch": 5,
+      "negative_size": 2,
+      "model": "cbow",
+      "out_type": "ns",
+      "subword": "none",
+      "vocabulary": {
+          "cnt_words": 272062
+      },
+      "window": 2
 }
 5. The trained model was now stored in npy format along with the metadata.
 
