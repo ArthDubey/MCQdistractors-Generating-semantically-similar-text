@@ -1,4 +1,4 @@
-# Generating-semantially-similar-text
+# Generating-semantially-similar-text || Submission for ValueLabs
 This project aims to generate semantially and structurally similar text while keeping the context of the statement. Major use of this could be generating 2 or more distractors given the question and solution of a Multiple choice question.
 
 
