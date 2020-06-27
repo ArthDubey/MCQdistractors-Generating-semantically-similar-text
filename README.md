@@ -1,5 +1,7 @@
 # Generating semantially similar text 
-This project aims to generate semantially and structurally similar text while keeping the context of the statement. Major use of this could be generating 2 or more distractors given the question and solution of a Multiple choice question.
+This project aims to generate semantically and structurally similar text while keeping the context of the statement. 
+- Major use of this could be generating 2 or more options for a given question and solution of a Multiple choice question. 
+- Another major use could be suggesting alternative statements for a typed statement in an email or essay.
 
 
 
