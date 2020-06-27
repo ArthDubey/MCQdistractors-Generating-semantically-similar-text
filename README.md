@@ -1,4 +1,4 @@
-# Generating-semantially-similar-text || Submission for ValueLabs
+# Generating semantially similar text 
 This project aims to generate semantially and structurally similar text while keeping the context of the statement. Major use of this could be generating 2 or more distractors given the question and solution of a Multiple choice question.
 
 
@@ -47,14 +47,14 @@ The following steps were followed in order to create the Vocabulary-
 The approach to generate the text is-
 
 For every iteration of Test.csv-
-   1. The actual solution is tokenized by the help of NLTK.
-   2. All of the nouns and the verbs are extracted (with nltk.pos_tag) and stored in set.
-   3. The vector representation of the nouns and verbs are then found.
-   4. For the first distractor, Noun in the subject is swapped with the word with minimum Euclidean distance from it in the vector space representation. 
-   5. For the second distractor, Verb in the subject is swapped with the word with minimum Euclidean distance from it in the vector space representation. 
-   6. If there is no noun or there is no verb in the subject of the sentence, Then any noun or verb found in the sentence are used.
-   7. If the vector space representation comes up with a word which is very similar to the existing word, then nltk.corpus.wordnet.synsets are iterated over to find the best fit.
-   8. The solution is stored in answer.csv
+   - The actual solution is tokenized by the help of NLTK.
+   - All of the nouns and the verbs are extracted (with nltk.pos_tag) and stored in set.
+   - The vector representation of the nouns and verbs are then found.
+   - For the first distractor, Noun in the subject is swapped with the word with minimum Euclidean distance from it in the vector space representation. 
+   - For the second distractor, Verb in the subject is swapped with the word with minimum Euclidean distance from it in the vector space representation. 
+   - If there is no noun or there is no verb in the subject of the sentence, Then any noun or verb found in the sentence are used.
+   - If the vector space representation comes up with a word which is very similar to the existing word, then nltk.corpus.wordnet.synsets are iterated over to find the best fit.
+   - The solution is stored in answer.csv
 
 
 ## Results
