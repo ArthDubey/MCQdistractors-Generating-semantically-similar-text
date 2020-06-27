@@ -8,14 +8,8 @@ This project aims to generate semantically and structurally similar text while k
 ## Creation of Vocabulary
 
 The following steps were followed in order to create the Vocabulary-
-1. All of the words from the train.csv file and test.csv file along with their number of occurances were saved in pickle format.
-2. As this vocabulary may not have been extensive enough for us to get the words we needed. For example
-
-   _In example 149 in the submitted 'answer.csv' you can find, the actual answer is - 'The dummies books will continue to be     popular' and the generated distractors are - 'The crosswords books will continue to be popular.' and 
-   'The dummies books will cease to be popular .'_
-
-   As the words 'cease' and 'crosswords' (which were essential in creating distractors) may not have been on the vocabulary so   some essential extra words of English were needed.
-
+1. All of the words from extensive essays and articles mined online along with their number of occurances were saved in pickle format.
+2. As this vocabulary may not have been extensive enough for us to get the words we needed
 3. So the following Corpus was additionally used to expand the vocabulary.
 
    Source - http://www.nltk.org/nltk_data/ (28th entry)
